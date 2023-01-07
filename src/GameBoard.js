@@ -58,6 +58,7 @@ GameBoard.prototype.receiveShots = function (position) {
       }
     });
   }
+  return checkIfMissedShot
 };
 
 GameBoard.prototype.hasAllShipsBeenSunk = function () {
